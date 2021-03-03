@@ -108,4 +108,49 @@
  </form>
 
    </body>
+   <script type="text/javascript">
+    let hungry = true;
+    function gotofridge(){
+        console.log('Going to fridge');
+    }
+
+  hungry && gotofridge();
+  function doSomething(arg1){
+    arg1= arg1 || 32;
+    console.log(arg1);
+}
+doSomething(50);
+
+var array =[2,5,66,41,52];
+console.log(array.length);
+console.log(array);
+array.length=0;
+console.log(array.length);
+console.log(array);
+
+let myObj = {
+    name:"kader",
+    age:46,
+    cars:{
+        car1:"Ford",
+        car2:"BMW",
+        car3:"Fiat",
+    },
+}
+
+console.log(myObj.cars.car2);
+console.log(JSON.stringify(myObj,null,"\t")); 
+/* */
+const val =+ "1" ;
+
+console.log(typeof val);
+/* get the last item in array*/
+let arr = [1,74,77,778,888,854,2,14,5,5,88,11,4];
+console.log(arr.slice(-1));
+console.log(arr.slice(-2));
+/*Use spread /rest operator*/
+
+
+
+   </script>
 </html>

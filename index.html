@@ -153,6 +153,8 @@ console.log(arr.slice(-2));
 let first = ["foo","bar"];
 let second=["other foo",...first,"other bar"];
 console.log(second);
+function sum (...args)
+{ return args.reduce((previous,current)=>{return previous+current});}
 
    </script>
 </html>
